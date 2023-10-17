@@ -4,6 +4,7 @@
 }
 body{
      background-color: rgba(181, 179, 179, 0.582);
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -72,12 +73,57 @@ height: 600px;
 }
 
 .spunta {
-     height: 20px;
+     height: 15px;
+     vertical-align: middle;
 }
 
 .croce {
      height: 10px;
+     vertical-align: middle;
 }
+
 .freccia{
      height: 15px;
+     margin-right: 10px;
+     margin-top: 20px;
+     
+}
+
+.container{
+margin-left: 50px;
+padding-top: 30px;
+
+}
+
+span{
+line-height: 2;
+
+}
+.task{
+     font-size: 20px;
+}
+
+.botton{
+     color: rgb(255, 255, 255);
+     background-color: rgb(18, 179, 233);
+     padding: 5px;
+     border: none;
+     border-radius: 10px;
+     margin-left: 5px;
+}
+
+.blu{
+     background-color: rgb(18, 179, 233);
+}
+.purple{
+     background-color: rgb(183, 48, 241);
+}
+.orange{
+     background-color: orange;
+}
+.pink{
+     background-color: pink;
+}
+.green{
+     background-color: green;
 }
